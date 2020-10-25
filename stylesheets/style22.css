@@ -1,0 +1,233 @@
+* {
+    box-sizing:border-box;
+    font-family:'Avenir book' ;
+}
+
+header {
+    width: 100%;
+    z-index: 10;
+    background-image: url("../images/part1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    perspective: 1000px;
+    width: 100%;
+    font-size: 100%;
+}
+
+a, ul, li
+{
+    text-decoration: none;
+    list-style-type:none;
+}
+h1,h2,h3,h4,h5,h6,p
+{
+    font-family: 'avenir';
+    margin:0
+}
+.nav-bar
+{
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+
+.nav-bar img
+{
+    padding: .5em 1em;
+}
+
+.nav-ul {
+    display: inline-flex;
+    float: right;
+}
+
+.nav-ul li{
+    margin-left: 2em;
+    font-size: .6em;
+    font-family: 'avenir';
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.nav-detail {
+    padding: 1em 2em;
+    width: 100%;
+}
+
+.scope{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.scope h1{
+    transform: rotate(-90deg);
+    font-size: 5em;
+    color: white;
+    font-family: "gill san";
+    position: absolute;
+    left: -94px;
+    bottom: 74px;
+}
+
+.part-2{
+    background-image: url('../images/up.png');
+    background-size: 100%;
+    background-repeat:no-repeat;
+    height: 50vh;
+    overflow: inherit;;
+}
+.part-2-1{
+    background-image: url('../images/down.png');
+    background-size: 100%;
+    background-repeat:no-repeat;
+    height: 50vh;
+    overflow: inherit;;
+}
+
+
+
+.part-3
+{
+    background-image: url('../images/part3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.small-block
+{
+    width: 33.3%;
+    height: 50%;
+    padding: 1em;
+    font-size: 1.8em;
+}
+.part-1
+{
+    height: 100vh;
+    position: relative;
+}
+
+#part1
+{
+    position: absolute;
+    background: #780F11;
+    bottom: 99px;
+    right: 0px;
+}
+
+#part2-1 {
+    background: #780F11;
+    float: right;
+}
+
+.part2-block
+{
+    width: 33.3%;
+    height: 100%;
+}
+
+#part2-2
+{
+    background: white;
+    margin-left: 33.3%;
+}
+
+#part3
+{
+    background: white;
+    margin-left: 33.3%;
+}
+
+#part3-1
+{
+    background: black;
+    float: left;
+}
+
+.part4
+{
+    background-image: url("../images/news.jpg");
+    background-size:50%;
+    background-repeat: no-repeat;
+    height: 50vh;
+    padding-right: 2em;
+}
+
+.part4 h2
+{
+    font-size: 1.8em;
+    color: #780F11; 
+    padding-bottom: .5em; 
+}
+
+.part4 p{
+    font-size: .8em;
+    font-weight: 100;
+}
+
+.part4 span>a
+{
+    font-size: .7em;
+    font-weight: bold;
+    font-family: 'avenir';
+    float: right;
+    color:#000
+}
+
+#part1-block-text, #part1>span>a,#part3-1 {
+    color: #fff;
+}
+
+.small-block span>a{
+    font-size: .5em;
+    font-family: 'avenir';
+    padding-top: 2em;
+    font-weight: 100;
+}
+
+#part2-2>span>a{
+    color: #000;
+}
+
+#part3-1>span>a
+{
+    color:#fff
+}
+
+
+
+footer
+{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 2em;
+}
+
+.footer
+{
+    height: 300px;
+    background: #000;
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+.footer-content h3, p
+{
+    color: #fff;
+    font-size: smaller;
+    font-family: 'avenir'
+}
+
+
